@@ -9,6 +9,7 @@ RUN set -x; \
             curl \
             nodejs \
             npm \
+            poppler-utils \
             python-support \
             python-pyinotify \
         && npm install -g less less-plugin-clean-css \
